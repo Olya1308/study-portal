@@ -10,11 +10,11 @@ using StudyPortal.Models;
 
 namespace StudyPortal.Controllers
 {
-    public class NewsModelsController : Controller
+    public class NewsModelController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public NewsModelsController(ApplicationDbContext context)
+        public NewsModelController(ApplicationDbContext context)
         {
             _context = context;
         }
